@@ -2,5 +2,24 @@
     background-color: #bb82c9;
     color: white;
     padding: 10px;
+    text-align: right;
+}
+
+.textosH{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #211e21;
+    text-align: left;
+    font-size: 15px;
+   
+}
+.footer{
+    background-color: #211e21;
+    color: white;
+    padding: 10px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   
 }
