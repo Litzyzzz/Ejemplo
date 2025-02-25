@@ -5,7 +5,7 @@ class miElemento extends HTMLElement {
         this.shadowRoot.innerHTML = `
 
         <img class="img-logo" src="https://www.mitur.gob.sv/wp-content/uploads/2020/09/El-Salvador.jpg" alt="El Salvador" width="100%">
-"
+
             <h1>Mejores lugares para visitar</h1>
 
             <style>
@@ -51,7 +51,7 @@ document.getElementById('btnVer').addEventListener('mouseover', function() {
     this.style.backgroundColor = '#f0e68c';
 });
 
-  document.getElementById('btnVer').addEventListener('mouseout', function() {
+ /* document.getElementById('btnVer').addEventListener('mouseout', function() {
     this.style.backgroundColor = '#fff';
-});
+});*/
 
