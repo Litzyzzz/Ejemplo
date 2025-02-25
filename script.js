@@ -29,7 +29,7 @@ customElements.define("mi-elemento", miElemento);
 
 
 function surfCity(){
-    document.getElementById("btn4").innerHTML="El lugar de las mejores olas derechas del mundo. Un paraíso natural que debes conocer.";
+    document.getElementById("bt4").innerHTML="El lugar de las mejores olas derechas del mundo. Un paraíso natural que debes conocer.";
   }
 
 document.getElementById('btnVer').addEventListener('mouseover', function() {
