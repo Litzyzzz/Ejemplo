@@ -27,6 +27,21 @@ class miElemento extends HTMLElement {
 }
 customElements.define("mi-elemento", miElemento);
 
+function volcan(){
+    document.getElementById("bt1").innerHTML="El Ilamatepec forma parte del Complejo Los Volcanes en la cordillera de Apaneca y su ascenso no es muy complicado. Una vez arriba podrás ver el cráter o disfrutar de las vistas al lago Coatepeque. El recorrido también se puede hacer en la noche con total seguridad.";
+  }
+
+
+
+function coate(){
+    document.getElementById("bt2").innerHTML="Sus aguas azules y su alta oferta de ecoturismo hacen del lago de Coatepeque uno de los destinos preferidos por salvadoreños y extranjeros. En este lago de origen volcánico podrás practicar kayak, jet ski y buceo, y en sus alrededores senderismo o bicicleta de montaña.";
+  }
+
+
+function binaes(){
+    document.getElementById("bt3").innerHTML="Tesoro resplandeciente ubicado en el Centro Histórico de San Salvador..";
+  }
+
 
 function surfCity(){
     document.getElementById("bt4").innerHTML="El lugar de las mejores olas derechas del mundo. Un paraíso natural que debes conocer.";
