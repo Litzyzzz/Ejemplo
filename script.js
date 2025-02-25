@@ -48,10 +48,10 @@ function surfCity(){
   }
 
 document.getElementById('btnVer').addEventListener('mouseover', function() {
-    this.style.backgroundColor = '#f0e68c';
+    this.style.backgroundColor = ' #ec7063';
 });
 
- /* document.getElementById('btnVer').addEventListener('mouseout', function() {
+  document.getElementById('btnVer').addEventListener('mouseout', function() {
     this.style.backgroundColor = '#fff';
-});*/
+});
 

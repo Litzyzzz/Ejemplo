@@ -35,6 +35,10 @@ body{
     gap: 20px;
     flex-wrap: wrap;
     padding: 20px;
+    background-color: #359dce;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 50px;
 
   
 }
@@ -42,6 +46,7 @@ body{
     flex: 0 0 18rem;
     display: flex;
     flex-direction: row;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .card-body{
@@ -52,7 +57,9 @@ body{
     padding: 20px;
     
 }
-
+.card-img-top{
+    object-fit: cover;
+}
 
 
 
@@ -76,7 +83,7 @@ body{
 }
 
 .footer {
-    background-color: #211e21;
+    background-color: #1e1f21;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
