@@ -3,6 +3,9 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
+    align-items: center;
+    justify-content: center;
+
     
 }
 
@@ -11,7 +14,6 @@ body{
 .header{
     background-color: #359dce;
     color: white;
-   
     text-align:center;
     left: 0;
     bottom: 0;
@@ -24,19 +26,36 @@ body{
 
 
 .container{
-    width: 80%;
-    max-height: 500px;
-    display:inline-block;
+   
+    max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
-    flex-direction: column;
-     
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
 
+  
 }
-.card-body {
-    padding: 15px;
+.card{
+    flex: 0 0 18rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body{
+    display: grid;
+    flex-direction: row;
+    align-items: center;
     text-align: center;
+    padding: 20px;
+    
 }
+
+
+
+
 
 .img{
     width: 100%;
